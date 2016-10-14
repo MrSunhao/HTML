@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>山东理工ACM</title>
+    <style>
+        #con{
+            height:800px;
+            width:1000px;
+            margin:0 auto;
+        }
+        #header{
+            background-image: url("./images/image2_5.jpg");
+            height:100px;
+        }
+        #toplist{
+            height:30px;
+            width: 1000px;
+            float: left;
+            /*background-color: #66FFCC;*/
+            background-image: url("./images/index_33.gif");
+        }
+        #toplist ul li{
+            float: left;
+        }
+        #toplist ul li a{
+            display: block;
+            height: 30px;
+            float: left;
+            text-decoration: none;
+        }
+        #toplist ul li a:hover{
+            background-color: #00CCFF;
+        }
+        #tc{
+            height: 30px;
+            width: 20px;
+            float: left;
+            background-image: url("./images/index_33.gif");
+        }
+        .listname{
+            margin: 5px 11px 0 11px;
+            font-weight:bold;
+            font-size: 18px;
+            color: black;
+            font-family: '微软雅';
+            float: left;
+        }
+        #con_left{
+            height: 500px;
+            width: 200px;
+            float: left;
+            background-color: #818181;
+        }
+        #con_left img{
+            height: 500px;
+            width: 200px;
+        }
+        #con_right{
+            height: 500px;
+            width: 800px;
+            float: left;
+            background-color: #99FFFF;
+        }
+        #footer{
+            height: 78px;
+            width: 1000px;
+            float: left;
+            text-align: center;
+            background-image: url("./images/index_33.gif")
+        }
+        #fo_cont{
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+<div id="con">
+    <div id="header"></div>
+    <div id="toplist">
+        <ul>
+          <li><a href="http://www.sdutacm.org/" target="_blank"><div id="tc"></div><div class="listname">ACM首页</div></a></li>
+            <li><a href="show/acmjs.html" target="show"><div class="listname">竞赛介绍</div></a></li>
+            <li><a href="show/jsjg.html" target="show"><div class="listname">竞赛机构</div></a></li>
+            <li><a href="show/jsgz.html" target="show"><div class="listname">竞赛规则</div></a></li>
+            <li><a href="show/jsdate.html" target="show"><div class="listname">竞赛日程</div></a></li>
+            <li><a href="show/jspro.html" target="show"><div class="listname">竞赛题目</div></a></li>
+            <li><a href="show/jsjoin.html" target="show"><div class="listname">竞赛报名</div></a></li>
+            <li><a href="show/jsresult.html" target="show"><div class="listname">竞赛结果</div></a></li>
+            <li><a href="show/acminformation.html" target="show"><div class="listname">ACM协会</div></a></li>
+            <li><a href="show/xglj.html" target="show"><div class="listname">相关链接</div></a></li>
+            <!--<li><a href="#"><div class="listname">联系我们</div></a></li>-->
+        </ul>
+    </div>
+    <div id="showlist">
+        <div id="con_left"><img src="images/left_bg.jpg" alt=""></div>
+        <div id="con_right"><iframe src="show/acmjs.html" frameborder="0" height="500px" width="800px" name="show" marginheight="0" marginwidth="0"></iframe></div>
+    </div>
+    <div id="footer">
+        <div id="fo_cont">
+            <p>山东理工大学ACM 版权所有 @2013</p>
+            <p>地址: 山东省淄博市张店区张周路12号</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
